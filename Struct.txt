@@ -1,0 +1,116 @@
+# BackEnd Code
+## Train all models on yourown if posible
+
+## Also try to use parallel tasks
+
+def NewObjectRemembrace():
+    '''
+    if user sujest to store an object or person in database then this function will be called
+    '''
+
+def SpeachRecognision():
+
+    '''
+    '''
+
+def GenrativeAI():
+    '''
+    For more QnA style on the image or the product:
+    this will take input as User, from image search , itself or VisvalAgent
+    '''
+
+
+def OnlineSearch():
+    '''
+    have a text baised search
+    '''
+
+
+def VoiceOver(text):
+    '''
+    this will take input as text from DataBaseInteface/ image search or OnlineSearch or GenrativeAI
+    Train your own model if posible
+    '''
+
+
+def VisvalAgent():
+    '''
+    will be given image with non labels or boxes
+    '''
+
+
+def DataBaseInteface():
+    '''
+    For image and Info Similarity
+    '''
+
+
+def ImageUpScaler():
+
+    ""
+
+
+
+def BestImageSelector():
+    '''
+    from the gesture we will capture multiple imgs and pic the best one and then upscale it
+    '''
+def OCR():
+    '''
+    For more QnA style on the image or the product:
+    this will take input as User, from image search , itself or VisvalAgent
+    '''
+    
+
+def USerLearinging():
+    '''
+    The user can show an object or a human (and point towerds it) and tell the AI to remember or learn about it. 
+    Then the model Ask for multilple angles and Then user will tell its name, The model will store it in the database
+    the model can also take the name and get more images of it and add it to the database
+    
+    '''
+
+def OnlineSearchLearn():
+    '''
+    if the model doesnt know what the image is, it can take the segmanet and search on google lens or similar projects
+    then it will take the top texts and ask the user if the description is good.
+    After that we will search for that term and download the object/products images and add them to the database along with 
+    the image provided by the user if given permition
+    '''
+
+#def VlmToDB():
+    '''
+    if we dont use the above methord of online image search or if we want to be better, we can use this mothod
+    after the task of giving the user is completed, baised on the answer we can ask the vlm to give a search query to use
+    and baised on that we can again download the image and store it, But this might be bad as we only want to use the db 
+    store data of items not known to vlm
+    '''
+
+
+def FaceDetection(): #opencv
+    '''
+    Who is the main speaker
+    '''
+
+def RealTimeObjectSegmentation(): #yolo
+    ObjectsInframe = [""] 
+    ObjectCutOuts = [""] #box anotations
+    MainObjectCut = ''
+    bool TrigerDetection = False #Hand Gesture For Image Search
+    if TrigerDetection:
+        name, RefranceImage, BasicDiscription = ImageSerch(MainObjectCut)
+
+
+
+
+def ImageSerch(Image): #Clip
+    name ="temp"
+    RefranceImage ="/conetent/test.png"
+    BasicDiscription = "This is...."
+    return name, RefranceImage, BasicDiscription
+
+
+def main():
+    ObjectsInframe = [""]
+    ObjectCutOuts = [""]
+    
