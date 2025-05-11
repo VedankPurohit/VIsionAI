@@ -1,0 +1,24 @@
+
+pload*.pyc
+# Local data
+Data/
+Models/
+Temp/
+
+# Environment files
+.env
+.env.*
+
+# IDE files
+.vscode/
+.idea/
+__pycache__/
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# System files
+.DS_Store
+Thumbs.db
