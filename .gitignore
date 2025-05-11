@@ -1,9 +1,9 @@
 
 pload*.pyc
 # Local data
-Data/
-Models/
-Temp/
+# Data/
+# Models/
+# Temp/
 
 # Environment files
 .env
